@@ -137,3 +137,7 @@ footer{
     text-decoration: none;
     color: var(--white);
 }
+button:hover{
+    border: 1.25cm;
+    border-color: antiquewhite;
+}
