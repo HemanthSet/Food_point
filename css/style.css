@@ -1,0 +1,139 @@
+:root{
+    --yellow:#ecd503;
+    --red:crimson;
+    --white:whitesmoke;
+    --black:black;
+    --green:rgb(12, 158, 12);
+
+}
+body,h2{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+    background-image: url('../images/pexels-goumbik-349610.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: var(--black);
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    
+}
+#logo{
+    color: var(--green);
+    flex: 5;
+    font-size: 1cm;
+    font-weight: bolder;
+    margin-left: .3em;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+nav{
+    flex: 1;
+    display: flex;
+    font-size: 0.5cm;
+    
+}
+nav a{
+    flex: 1;
+    color:var(--black);
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover{
+    color: var(--white);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 4em;
+
+}
+.tag1{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tag2{
+    color: var(--green);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    font-size: large;
+    color: var(--white);
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .9em;
+    background-color: var(--yellow);
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+    background: linear-gradient(to right, rgb(180, 174, 174),rgb(107, 100, 100),rgb(105, 99, 99));
+}
+#menuheading,#locheading{
+    font-size: 2.5em;
+    background: linear-gradient(to right, rgb(180, 174, 174),rgb(107, 100, 100),rgb(105, 99, 99));
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    font-size: 1.8em;
+    color: var(--yellow);
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.locations{
+    background: linear-gradient(to right, rgb(180, 174, 174),rgb(107, 100, 100),rgb(105, 99, 99));
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    color: var(--red);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+footer{
+    background: linear-gradient(to right, rgb(44, 44, 44),rgb(107, 100, 100),rgb(165, 160, 160));
+    color: var(--white);
+    padding: .25em 1em;
+}
+.socialmenu ul{
+    text-decoration: none;
+    color: var(--white);
+}
